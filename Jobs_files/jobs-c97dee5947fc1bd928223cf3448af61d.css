@@ -24,28 +24,6 @@ body {
 ul li {
     list-style: none;
 }
-#header {
-    position: relative;
-    z-index: 1000;
-}
-.vid_arrow {
-    background: url("//a2.muscache.com/airbnb/static/landing_pages/rentyourplace/play-arrow-9f1937f1890ade39d8d9a87967666446.png") left top no-repeat;
-    cursor: pointer;
-    height: 52px;
-    left: 50%;
-    margin-left: -30px;
-    margin-top: -26px;
-    position: absolute;
-    top: 50%;
-    width: 59px;
-}
-.video-thumb {
-    -moz-transition: all 0.3s linear;
-    -o-transition: all 0.3s linear;
-    -webkit-transition: all 0.3s linear;
-    cursor: pointer;
-    transition: all 0.3s linear;
-}
 .video-thumb:hover {
     -moz-box-shadow: 0px 0px 5px 4px rgba(255, 94, 188, 0.6);
     -o-box-shadow: 0px 0px 5px 4px rgba(255, 94, 188, 0.6);
