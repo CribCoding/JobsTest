@@ -1,0 +1,109 @@
+/*********************************************************
+/*  GLOBALS
+*/
+
+.kiveda_main-container {
+    width: 1000px; margin: 0px auto;
+    text-align: left;
+}
+
+.kiveda_top-container {
+    width: 100%;
+    -webkit-box-shadow: 1px 0px 10px rgba(50, 50, 50, 0.75);
+    -Moz-box-shadow: 1px 0px 10px rgba (50, 50, 50, 0.75);
+    -ms-box-shadow:     1px 0px 10px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 0px 10px rgba(50, 50, 50, 0.75);
+}
+
+
+/*********************************************************
+/*  HEADERS
+*/
+
+.kiveda_header {
+    height: 70px; padding-bottom: 10px;
+    border-bottom: 1px solid #c20f20;
+}
+
+.kiveda_header-logo {
+    margin: 25px 0px 0px 65px;
+}
+
+.kiveda_header-text {
+    margin: 38px 65px 0px 0px;;
+    font-size: 18px; font-weight: 400; color: #2a2b2b;
+}
+
+/*********************************************************
+/*  LOGOS
+*/
+
+.kiveda_logo-main {
+    width: 115px; height: 31px;
+    background: url(http://www.kiveda.de/_img/logo.jpg) no-repeat; background-size: 100%;
+}
+
+
+/*********************************************************
+/*  POSITIONS
+*/
+
+/* IE6/7 support */
+.kiveda_clearfix {
+    *zoom: 1;
+}
+
+.kiveda_float-left  {
+    float: left;
+}
+
+.kiveda_float-right {
+    float: right;
+}
+
+/*********************************************************
+/*  SLIDES
+*/
+
+#home-slides {
+    margin-top: -56px;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+#home-slides .story.slide-1 {
+    background: #fff url("http://www.kiveda.de/_img/kitchen.jpg") right top no-repeat fixed;
+    height: 1000px;
+}
+
+/*********************************************************
+/*  STICKY FOOTER
+*/
+
+#sticky-footer {
+    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -o-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+    padding: 30px 0px;
+    position: absolute;
+    text-shadow: 0px 1px #fff;
+    width: 1000px;
+    z-index: 1000;
+}
+#sticky-footer.sticky {
+    bottom: 0px;
+    position: fixed;
+}
+#sticky-footer h3 {
+    font-size: 28px;
+    font-weight: 400;
+    margin: 0px 0px 10px;
+}
+#sticky-footer p {
+    color: #959595;
+    font-size: 14px;
+}
+
+

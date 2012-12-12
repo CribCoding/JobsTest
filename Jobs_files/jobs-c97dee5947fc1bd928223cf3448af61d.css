@@ -28,30 +28,6 @@ ul li {
     position: relative;
     z-index: 1000;
 }
-#sticky-footer {
-    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -o-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    padding: 30px 0px;
-    position: absolute;
-    text-shadow: 0px 1px #fff;
-    width: 100%;
-    z-index: 1000;
-}
-#sticky-footer.sticky {
-    bottom: 0px;
-    position: fixed;
-}
-#sticky-footer h3 {
-    font-size: 28px;
-    font-weight: 400;
-    margin: 0px 0px 10px;
-}
-#sticky-footer p {
-    color: #959595;
-    font-size: 14px;
-}
 .vid_arrow {
     background: url("//a2.muscache.com/airbnb/static/landing_pages/rentyourplace/play-arrow-9f1937f1890ade39d8d9a87967666446.png") left top no-repeat;
     cursor: pointer;
@@ -78,13 +54,6 @@ ul li {
     border: 1px solid #d80e78;
     box-shadow: 0px 0px 5px 4px rgba(255, 94, 188, 0.6);
 }
-#home-slides,
-#content-slides {
-    margin-top: -56px;
-    margin: 0px;
-    padding: 0px;
-    position: relative;
-}
 #home-slides .story,
 #content-slides .story {
     overflow: hidden;
@@ -96,19 +65,6 @@ ul li {
     height: 100%;
     position: absolute;
     width: 100%;
-}
-#home-slides .story.slide-1,
-#content-slides .story.slide-1 {
-    background: #fff url("//a2.muscache.com/airbnb/static/jobs/new/bg-dome-153f38f47ef2e6e4773a71e7f8799711.jpg") right top no-repeat fixed;
-    height: 1000px;
-}
-#home-slides .story.slide-1 h1,
-#content-slides .story.slide-1 h1 {
-    margin: 225px 0px 0px;
-}
-#home-slides .story.slide-1 #wishlistVideo,
-#content-slides .story.slide-1 #wishlistVideo {
-    position: absolute;
 }
 #home-slides .story.slide-2,
 #content-slides .story.slide-2 {
