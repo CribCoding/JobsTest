@@ -78,19 +78,6 @@ ul li {
     border: 1px solid #d80e78;
     box-shadow: 0px 0px 5px 4px rgba(255, 94, 188, 0.6);
 }
-.matte-media-box {
-    background: #fff;
-}
-#home-slides .story {
-    cursor: pointer;
-}
-.downArrow {
-    background: url("//a1.muscache.com/airbnb/static/jobs/new/arrow-36a548d85ada304ab3664cb7f92ed424.png") no-repeat;
-    height: 171px;
-    margin: 400px 0px 0px 100px;
-    position: absolute;
-    width: 383px;
-}
 #home-slides,
 #content-slides {
     margin-top: -56px;
@@ -110,10 +97,6 @@ ul li {
     position: absolute;
     width: 100%;
 }
-#home-slides .story .article,
-#content-slides .story .article {
-    position: relative;
-}
 #home-slides .story.slide-1,
 #content-slides .story.slide-1 {
     background: #fff url("//a2.muscache.com/airbnb/static/jobs/new/bg-dome-153f38f47ef2e6e4773a71e7f8799711.jpg") right top no-repeat fixed;
@@ -126,12 +109,6 @@ ul li {
 #home-slides .story.slide-1 #wishlistVideo,
 #content-slides .story.slide-1 #wishlistVideo {
     position: absolute;
-}
-#home-slides .story.slide-1 #scrollHelp,
-#content-slides .story.slide-1 #scrollHelp {
-    color: #848484;
-    display: none;
-    font-size: 14px;
 }
 #home-slides .story.slide-2,
 #content-slides .story.slide-2 {
@@ -204,89 +181,6 @@ ul li {
     margin: 175px 0px 0px;
     text-shadow: 0px 1px #fff;
 }
-#home-slides .story.departments,
-#content-slides .story.departments {
-    background: url("//a2.muscache.com/airbnb/static/jobs/new/bg-departments2-94c673ca41f1da16b17bfe16039b7c38.jpg") 50% 0px no-repeat fixed;
-}
-#home-slides .story.department-generic,
-#content-slides .story.department-generic {
-    background: url("//a2.muscache.com/airbnb/static/jobs/new/bg-fuse-7b9fa0f4831a958d35596d6620dc9426.jpg") 50% 0px no-repeat fixed;
-}
-#home-slides .story.design,
-#content-slides .story.design {
-    background: url("//a0.muscache.com/airbnb/static/jobs/new/bg-design-e9531857fa70974bf267934a0182843f.jpg") 50% 0px no-repeat fixed;
-}
-#home-slides .story.photography,
-#content-slides .story.photography {
-    background: url("//a2.muscache.com/airbnb/static/jobs/new/bg-photography-d52d8d74f25ce8261b6737402f1bf982.jpg") 50% 0px no-repeat fixed;
-}
-#home-slides .story.translation,
-#content-slides .story.translation {
-    background: url("//a2.muscache.com/airbnb/static/jobs/new/bg-fuse-7b9fa0f4831a958d35596d6620dc9426.jpg") 50% 0px no-repeat fixed;
-}
-#home-slides .story.office_other-locations,
-#content-slides .story.office_other-locations {
-    background: url("//a2.muscache.com/airbnb/static/jobs/new/bg-locations-96f5674d2fab7384b067bb1291a8b686.jpg") 50% 0px no-repeat fixed;
-}
-#home-slides .story.engineering,
-#content-slides .story.engineering {
-    background: url("//a2.muscache.com/airbnb/static/jobs/new/bg-engineer2-886fe18b85dfdbd5e12671dda49b8cba.jpg") 50% 0px no-repeat fixed;
-}
-#home-slides .story.engineering .headerContent,
-#content-slides .story.engineering .headerContent {
-    margin: 85px auto 0px auto;
-    position: relative;
-    width: 600px;
-}
-#home-slides .story.engineering .headerContent h1,
-#content-slides .story.engineering .headerContent h1 {
-    margin-bottom: 45px;
-    text-align: center;
-    text-shadow: 0px 1px rgba(255, 255, 255, 0.5);
-}
-#home-slides .story.engineering .headerContent .beveled-media-box,
-#content-slides .story.engineering .headerContent .beveled-media-box {
-    display: block;
-    margin: 0px auto;
-    position: relative;
-    width: 182px;
-}
-#home-slides .story.life,
-#content-slides .story.life {
-    background: url("//a1.muscache.com/airbnb/static/jobs/new/bg-culture2-269f144109c8f8e5a0ef63e7aac10c26.jpg") 50% 0px no-repeat fixed;
-}
-#home-slides .story.life .headerContent,
-#content-slides .story.life .headerContent {
-    margin: 105px auto 0px auto;
-    position: relative;
-    width: 600px;
-}
-#home-slides .story.life .headerContent h1,
-#content-slides .story.life .headerContent h1 {
-    color: #fff;
-    margin-bottom: 25px;
-    text-align: center;
-    text-shadow: 0px -1px 0px rgba(0, 0, 0, 0.5);
-}
-#home-slides .story.life .headerContent .beveled-media-box,
-#content-slides .story.life .headerContent .beveled-media-box {
-    display: block;
-    margin: 0px auto;
-    position: relative;
-    width: 182px;
-}
-#home-slides .story.notfound,
-#content-slides .story.notfound {
-    background: url("//a0.muscache.com/airbnb/static/jobs/new/office-san-francisco-83ed55405861957bbeeaab8ba71c6581.jpg") 50% 0px no-repeat fixed;
-}
-#home-slides .story.notfound .headerContent,
-#content-slides .story.notfound .headerContent {
-    left: 50%;
-    margin-left: -242px;
-    margin-top: -100px;
-    text-shadow: 0px 1px #000;
-    top: 50%;
-}
 #home-slides .story h1,
 #home-slides .story .headerContent,
 #content-slides .story h1,
@@ -296,29 +190,6 @@ ul li {
     line-height: 62px;
     position: absolute;
     z-index: 999;
-}
-#home-slides .story .headerContent h1,
-#content-slides .story .headerContent h1 {
-    position: relative;
-}
-.position {
-    color: #848484;
-}
-.position strong {
-    color: #393c3d;
-    font-size: 18px;
-    font-weight: bold;
-}
-.position ul {
-    line-height: 20px;
-    list-style: none;
-    margin: 0px 0px 20px;
-}
-.position ul li {
-    background: url("//a1.muscache.com/airbnb/static/jobs/new/bullet-ac525f1aa25eb303e4251bf5553207ad.png") no-repeat 10px 7px;
-    line-height: 20px;
-    margin: 0px 0px 5px;
-    padding-left: 30px;
 }
 .lower-content {
     padding-top: 40px;
@@ -330,9 +201,6 @@ ul li {
 }
 .lower-content section header h1 {
     margin-bottom: 10px;
-}
-.lower-content section header h1 .quote-name {
-    font-size: 14px;
 }
 table tr .sort-direction {
     display: inline-block;
@@ -349,11 +217,6 @@ table tr th.headerSortDown .sort-direction {
     filter: alpha(opacity=100);
     opacity: 1;
 }
-table tr th.headerSortUp .sort-direction {
-    background: url("//a1.muscache.com/airbnb/static/jobs/new/sort_down-fdf7a76daa54692cfac5d452353b03bf.gif") no-repeat center right;
-    filter: alpha(opacity=100);
-    opacity: 1;
-}
 .panel-mega-pop {
     -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
     -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
@@ -367,42 +230,6 @@ table tr th.headerSortUp .sort-direction {
 .panel-mega-pop h1 {
     font-weight: 200;
     text-shadow: 0px 1px #fff;
-}
-.panel-mega-pop button {
-    width: 200px;
-}
-#cboxTitle {
-    -moz-border-radius-bottomright: 5px;
-    -moz-border-radius-topright: 5px;
-    -moz-box-sizing: border-box;
-    -webkit-border-bottom-right-radius: 5px;
-    -webkit-border-top-right-radius: 5px;
-    -webkit-box-sizing: border-box;
-    background: rgba(0, 0, 0, 0.8);
-    border-bottom-right-radius: 5px;
-    border-top-right-radius: 5px;
-    border: 1px solid rgba(0, 0, 0, 0.2);
-    box-sizing: border-box;
-    color: white;
-    margin: 0px auto;
-    padding: 10px 15px;
-    width: auto;
-}
-#sticky-footer.flush-header {
-    -moz-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-    -o-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-    -webkit-box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-    box-shadow: 0px 2px 2px rgba(0, 0, 0, 0.2);
-}
-.bigSlides {
-    margin: 0px;
-    padding: 0px;
-}
-.bigSlides li {
-    display: none;
-    height: 100%;
-    position: absolute;
-    width: 100%;
 }
 @media (min-width:320px) and (max-width:768px) {
     body {
