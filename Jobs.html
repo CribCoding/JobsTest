@@ -12,14 +12,14 @@
 
 
     <meta name="viewport" content="width=1000,maximum-scale=1.0">
-	<!-- Standard style CSS -->
+	<!-- Implementierung Google Webfont -->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+        
+  <!-- Standard style CSS -->
     <link href="./Jobs_files/o2-package-90c776046ccea44b2c71f83b31a8c7cd.css" media="screen" rel="stylesheet" type="text/css">
-  	<link href="./Jobs_files/jobs-c97dee5947fc1bd928223cf3448af61d.css" media="screen" rel="stylesheet" type="text/css">
-  	<link href="./Jobs_files/signpainter-7c6da9853a035f6f4fb95e772041afe0.css" media="screen" rel="stylesheet" type="text/css">
-
+  	<link rel="stylesheet" href="./kiveda_jobs.css" type="text/css"/>
     <link rel="shortcut icon" href="http://www.kiveda.de/_img/favicon.png">
     
-    <link rel="stylesheet" href="./kiveda_jobs.css" type="text/css"/>
     <style type="text/css"></style>
 <div class="kiveda_main-container">      
   <div class="kiveda_top-container">
@@ -34,7 +34,7 @@
     </div>
 
 <div id="home-slides">
-  <section class="story slide-1" style="height: 802px; background-position: 100% 33.30000000000001px;">
+  <section class="story slide-1" style="height: 802px; background-position: 50%;">
     <div class="trigger-area"></div>
     <article>
       <div class="container">
@@ -42,60 +42,10 @@
       </div>
     </article>
   </section>
-
-  <section class="story slide-2" style="background-position: 50% 229.8px;">
-    <div class="trigger-area"></div>
-    <div class="container">
-      <h1 id="word" style="margin-top: 210px; opacity: -0.07;">brings people <br><span class="signpainter">together</span> in <br>the real world,</h1>
-    </div>
-  </section>
-
-  <section class="story slide-3" style="background-position: 50% 267.8px;">
-    <div class="trigger-area"></div>
-    <div class="container">
-      <h1 style="margin-top: 272px; opacity: -0.42;">grants access <br>to the <span class="signpainter">unknown,</span></h1>
-    </div>
-  </section>
-
-  <section class="story slide-4" style="background-position: 50% 155.8px;">
-    <div class="trigger-area"></div>
-    <div class="container">
-      <h1 style="margin-top: 210px; opacity: 0.3;">inspires and <br>creates a world <br>of <span class="signpainter">potential,</span></h1>
-    </div>
-  </section>
-
-  <section class="story slide-5 last" style="background-position: 50% 250.8px;">
-    <div class="trigger-area"></div>
-    <div class="container">
-      <h1 style="margin-top: 272px; opacity: -0.33;">... and it’s only <br>the <span class="signpainter">beginning.</span></h1>
-    </div>
-  </section>
 </div>
 
 <div class="outerContainer">
-  <div id="sticky-footer" class="panel-background-light sticky home-footer" style="bottom: 0px; position: fixed; top: auto; margin-top: -169px;">
-    <div class="container">
-      <div class="row">
-        <div class="span4">
-          <h3>Middle Box Header 1</h3>
-          <p>Middle Box Text 1 Middle Box Text 1 Middle Box Text 1 Middle Box Text 1 </p>
-        </div>
-
-        <div class="span4">
-          <h3>Middle Box Header 2</h3>
-          <p>Middle Box Text 2 Middle Box Text 2 Middle Box Text 2 Middle Box Text 2 </p>
-        </div>
-
-        <div class="span4">
-          <h3>Middle Box Header 3</h3>
-          <p>Middle Box Text 3 Middle Box Text 3 Middle Box Text 3 Middle Box Text 3 </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
   <div class="container lower-content" id="lowerArea">
-    
     <section class="space2">
       <div class="row">
         <div class="span12">
@@ -222,142 +172,3 @@
         </div>
       </div>
     </div>
-    
-    <script src="./Jobs_files/core.js" type="text/javascript"></script>
-
-    <script src="./Jobs_files/jobs.js" type="text/javascript"></script>
-
-
-    <script>
-      
-$(document).ready(function(){
-  if($(window).width() < 500){
-
-  }
-  else{
-    var $StickyFooter = $(document.getElementById("sticky-footer")),
-        StickyHeight = $StickyFooter.outerHeight(),
-        WindowHeight = $(window).height();
-
-    var StickyPosition = (Number($("#sticky-footer").offset().top));
-
-    var config = { threshold: -190, offset_intertia: 0.35, top_offset: (StickyHeight) };
-
-    $(".slide-1").css("height",$(window).height());
-    
-    
-
-    var topSticky = function(){
-      if($(document).scrollTop() < ($("#lowerArea").offset().top - WindowHeight)){
-        $StickyFooter.css({position: 'fixed', bottom: '0', top: 'auto'});
-      }
-      else{
-        $StickyFooter.css({position: 'absolute', marginTop: -StickyHeight, bottom:'auto'});
-        $(window).on('scroll',bottomSticky);
-        $(window).off('scroll',topSticky);
-      }
-    };
-
-    var bottomSticky = function(){
-      if( $(document).scrollTop() >= ($("#lowerArea").offset().top - StickyHeight) ){
-        $StickyFooter.css({position: 'fixed', top: config.top_offset + 'px'});
-      }
-      else{
-        $StickyFooter.css({position: 'absolute', marginTop: -StickyHeight, top:'auto', bottom:'auto'});
-        $(window).on('scroll',topSticky);
-        $(window).off('scroll',bottomSticky);
-      }
-    };
-
-    var load_sticky = function(){
-      $(window).on('scroll',topSticky)
-    }
-
-    setTimeout(load_sticky, 1000);
-
-
-    $(".story").each(function() { 
-      var $self = $(this);
-      $("h1", $self).css("marginTop", (WindowHeight/2) - $("h1", $self).outerHeight());
-      if($self.hasClass("slide-1")){
-        $("h1", $self).css("marginTop", (WindowHeight/2) - ($("h1", $self).outerHeight()/2));
-        $("#wishlistVideo").css("marginTop", (WindowHeight/2) - $("h1", $self).outerHeight() - 80);
-      }
-      $(window).bind('scroll',function(e){
-        if ( $.inview($self,{threshold:config.threshold}) ) {
-          _scroll_background($self);
-        }
-      });
-    });
-
-    function _scroll_background(el) {
-      var bgp = el.backgroundPosition().split(' ');
-      var bpos = bgp[0] + (WindowHeight/2.5-($.distancefromfold(el,{threshold:config.threshold}))/2) + 'px';
-      el.css({'background-position':bpos})
-      
-      h1distance = $.distancefromfold($("h1", el),{threshold:config.threshold});
-      if(h1distance < (WindowHeight/2)){
-        // h1 is belown midway
-        h1percent = (h1distance / (WindowHeight/2)).toFixed(2);
-        $("h1", el).css("opacity", h1percent);
-      }
-      else if(h1distance > (WindowHeight/2)){
-        // h1 is above midway
-        h1percent = ((WindowHeight - h1distance) / (WindowHeight/2)).toFixed(2);
-        $("h1", el).css("opacity", h1percent);
-      }
-    }
-
-    function handleScroll(el){
-      var slideShown = false;
-      $(el).bind('inview', function(event, visible, visiblePartX, visiblePartY){
-        if(visible){
-          if(slideShown == false){
-            $('html,body').animate({scrollTop: $(this).offset().top},'slow');
-            slideShown = true;
-          }
-        } 
-        else{
-          slideShown = false;
-        }
-      });
-    }
-
-    jQuery.fn.backgroundPosition = function() {
-      var p = $(this).css('background-position');
-      if(typeof(p) === 'undefined') return $(this).css('background-position-x') + ' ' + $(this).css('background-position-y');
-      else return p;
-    };
-
-    function ScrollPage(el){
-      var $triggerParent = el.closest(".story");
-      if($triggerParent.hasClass("last") == false){
-        $.smoothScroll({
-          scrollTarget: $triggerParent.next(".story"),
-          easing: 'easeInOutQuad',
-          speed: 1000
-        });
-        return false;
-      }
-      else if($triggerParent.hasClass("last")){
-        $.smoothScroll({
-          offset:-($("#sticky-footer").outerHeight()),
-          scrollTarget: $("#lowerArea"),
-          easing: 'easeInOutQuad',
-          speed: 1000
-        });
-        return false;
-      }
-    }
-
-    $(".trigger-area").click(function(e){
-      ScrollPage($(this))
-    });
-
-    $(".container h1").click(function(e){
-      ScrollPage($(this))
-    });
-    
-  }
- });
-</script>

@@ -21,8 +21,13 @@
 */
 
 .kiveda_header {
-    height: 70px; padding-bottom: 10px;
+    height: 70px;
+    width: 1000px;
     border-bottom: 1px solid #c20f20;
+    position: fixed;
+    z-index: 1000;
+    background-color: rgba(255, 255, 255, 1);
+    font-family: "Open Sans", Arial, sans serif;
 }
 
 .kiveda_header-logo {
@@ -30,8 +35,10 @@
 }
 
 .kiveda_header-text {
-    margin: 38px 65px 0px 0px;;
-    font-size: 18px; font-weight: 400; color: #2a2b2b;
+    margin: 38px 65px 0px 0px;
+    font-size: 18px; 
+    font-weight: 400; 
+    color: #2a2b2b;
 }
 
 /*********************************************************
@@ -40,7 +47,8 @@
 
 .kiveda_logo-main {
     width: 115px; height: 31px;
-    background: url(http://www.kiveda.de/_img/logo.jpg) no-repeat; background-size: 100%;
+    background: url(http://www.kiveda.de/_img/logo.jpg) no-repeat; 
+    background-size: 100%;
 }
 
 
@@ -73,37 +81,101 @@
 }
 
 #home-slides .story.slide-1 {
-    background: #fff url("http://www.kiveda.de/_img/kitchen.jpg") right top no-repeat fixed;
+    background: #fff url("./Jobs_files/Slide_1.jpg") left top no-repeat fixed;
     height: 1000px;
 }
 
 /*********************************************************
-/*  STICKY FOOTER
+/*  old jobs css
 */
 
-#sticky-footer {
-    -moz-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -o-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    -webkit-box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
-    padding: 30px 0px;
+.twitter-share-button:hover {
+    background-position: left -20px;
+}
+.twitter-share-button:active {
+    background-position: left -40px;
+}
+body {
+    filter: alpha(opacity=0);
+    opacity: 0px;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    height: 0px;
+    line-height: 0px;
+    visibility: hidden;
+}
+ul li {
+    list-style: none;
+}
+.video-thumb:hover {
+    -moz-box-shadow: 0px 0px 5px 4px rgba(255, 94, 188, 0.6);
+    -o-box-shadow: 0px 0px 5px 4px rgba(255, 94, 188, 0.6);
+    -webkit-box-shadow: 0px 0px 5px 4px rgba(255, 94, 188, 0.6);
+    background: #e50086;
+    border: 1px solid #d80e78;
+    box-shadow: 0px 0px 5px 4px rgba(255, 94, 188, 0.6);
+}
+#home-slides .story,
+#content-slides .story {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+}
+#home-slides .story .trigger-area,
+#content-slides .story .trigger-area {
+    height: 100%;
     position: absolute;
-    text-shadow: 0px 1px #fff;
-    width: 1000px;
-    z-index: 1000;
+    width: 100%;
 }
-#sticky-footer.sticky {
-    bottom: 0px;
-    position: fixed;
+.lower-content {
+    padding-top: 40px;
 }
-#sticky-footer h3 {
-    font-size: 28px;
-    font-weight: 400;
-    margin: 0px 0px 10px;
-}
-#sticky-footer p {
+.lower-content p {
     color: #959595;
     font-size: 14px;
+    line-height: 20px;
 }
-
-
+.lower-content section header h1 {
+    margin-bottom: 10px;
+}
+table tr .sort-direction {
+    display: inline-block;
+    height: 10px;
+    width: 20px;
+}
+table tr .sort-direction {
+    background: url("//a0.muscache.com/airbnb/static/jobs/new/sort_up-3a8cc5198982116d347b2b1c2448498c.gif") no-repeat center right;
+    filter: alpha(opacity=30);
+    opacity: 0.3;
+}
+table tr th.headerSortDown .sort-direction {
+    background: url("//a0.muscache.com/airbnb/static/jobs/new/sort_up-3a8cc5198982116d347b2b1c2448498c.gif") no-repeat center right;
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.panel-mega-pop {
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+}
+.panel-mega-pop.panel-padding {
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+.panel-mega-pop h1 {
+    font-weight: 200;
+    text-shadow: 0px 1px #fff;
+}
+@media (min-width:320px) and (max-width:768px) {
+    body {
+        width: 1100px !important;
+    }
+    .story {
+        background-attachment: scroll !important;
+        height: 700px !important;
+    }
+}
