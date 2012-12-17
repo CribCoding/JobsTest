@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Kiveda</title>
+		<meta charset="UTF-8"/>
+        <link rel="shortcut icon" type="image/png" href="_img/favicon.png">
+        <link rel="stylesheet" href="_css/styles.css" type="text/css"/>
+        <link rel="stylesheet" href="_css/home.css" type="text/css"/>
+		<!-- Implementierung Google Webfont -->
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700' rel='stylesheet' type='text/css'>
+        
+		<script type="text/javascript">
+
+		  var _gaq = _gaq || [];
+		  _gaq.push(['_setAccount', 'UA-34871196-1']);
+		  _gaq.push(['_trackPageview']);
+
+		  (function() {
+		    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		  })();
+
+		</script>
+		
+		<script src="_js/jquery-1.8.3.min.js"></script>
+        <script src="_js/jquery.scrollTo-min.js"></script>
+        <script src="_js/jquery.transit.js"></script>
+        <script src="_js/jquery.backgroundSize.js"></script>
+        <script src="_js/kiveda.js"></script>
+	</head>
+
+	<body>
+        <div class="main-container">
+            <div class="top-container">
+                <div class="header">
+                    <div class="header-logo float-left">
+                        <div class="logo-main"></div>
+                    </div>
+                    <div class="header-text float-right">
+                        alles rund um küche und kochen.
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+                <div id="main-content" class="kitchen-blurry">
+                    <div class="pin knives hide"><div class="hoverable"></div></div>
+                    <div class="pin board hide"><div class="hoverable"></div></div>
+                    <div class="pin ice hide"><div class="hoverable"></div></div>
+                    <div class="pin unknown hide"><div class="hoverable"></div></div>
+                    <div class="pin tomato hide"><div class="hoverable"></div></div>
+                    <div class="pin bread hide"><div class="hoverable"></div></div>
+                    <div class="pin bus hide"><div class="hoverable"></div></div>
+                    <div class="pin note hide"><div class="hoverable"></div></div>
+                    <div class="pin noodles hide"><div class="hoverable"></div></div>
+                    <div class="pin pepper hide"><div class="hoverable"></div></div>
+                    <div class="pin-route"></div>
+                </div>
+
+                <div class="content-description">
+                    <div id="item-thumbnail" class="content-description-image image-none"></div>
+                    <div class="content-description-text">
+                        <div class="content-description-text-long">
+                            <div id="item-text-long-none">
+                                <span class="content-description-text-long-bold">Durchstöbere unsere erste Küche!</span><br/>
+                                Bis wir dir das vollendete Kiveda präsentieren dürfen, klicke doch schon mal auf eines der + Icons.
+                            </div>
+                            <div id="item-text-long-knives" class="hide margin">
+                                Durchschnittsköche kaufen meist ein Standard 6-Messer-Set. Ein guter Koch weiß jedoch, dass man eigentlich nur zwei Messer braucht.
+                            </div>
+                            <div id="item-text-long-board" class="hide margin">
+                                Der erste kommerziell erfolgreiche Toaster hieß "El Tosto" und wurde 1908 von General Electric in den USA entwickelt. 
+                            </div>
+                            <div id="item-text-long-ice" class="hide margin">
+                                Um glasklare Eiswürfel für deine Drinks zu erhalten, nutze am besten destilliertes Wasser. Zusätzlich werden diese Eiswürfel nicht so schnell auftauen!
+                            </div>
+                            <div id="item-text-long-unknown" class="hide margin">
+                                Wir hatten keinen blassen Schimmer, was das eigentlich ist. Weißt du's? Schicke uns deine Antwort an <a href="mailto:ufo@kiveda.de">ufo@kiveda.de</a> und wir werden dich mit einzigartigem Dank belohnen!
+                            </div>
+                            <div id="item-text-long-tomato" class="hide margin">
+                                Tomaten mögen es warm! Bewahre sie daher nicht im Kühlschrank auf, denn besonders bei Tomaten sorgen die Enzyme noch nach dem Pflücken dafür, dass sie immer geschmackvoller werden.
+                            </div>
+                            <div id="item-text-long-bread" class="hide margin">
+                                Brot wird nicht hart und alt, weil es austrocknet, sondern weil es die Luftfeuchtigkeit aufnimmt, wodurch die Stärke kristallisiert. Ein kurzer Trip in den Ofen kann das Brot oft wieder genießbarer machen!
+                            </div>
+                            <div id="item-text-long-bus" class="hide margin">
+                                Dieser Bus hat noch ein paar Plätze frei! Werde Teil unseres Teams und bewirb dich unter <a href="mailto:jobs@kiveda.de">jobs@kiveda.de</a> mit deiner Motivation und Lebenslauf.
+                            </div>
+                            <div id="item-text-long-note" class="hide margin">
+                                Normalerweise dauert es bis zu 3 Monate, bis die Küche, die du dir ausgesucht hast, tatsächlich in deiner Wohnung steht.<br/>
+                            </div>
+                            <div id="item-text-long-noodles" class="hide margin">
+                                Um festzustellen, ob deine Spaghetti fertig gekocht und schön al dente sind, wirf einfach eine an die Wand und schau', ob sie kleben bleibt.
+                            </div>
+                            <div id="item-text-long-pepper" class="hide margin">
+                                Pfeffer war vor Jahrhunderten höchst begehrt und fast ausschließlich dem Adel vorenthalten. Die alten Römer forderten Pfeffer während ihrer Belagerungen sogar als Lösegeld!
+                            </div>
+                        </div>
+                        <hr>
+                        <div>
+                            <div class="content-description-text-short">
+                                <div id="item-text-short-none">Gehöre zu den Ersten, die Kiveda durchstöbern dürfen:</div>
+                                <div id="item-text-short-knives" class="hide">Bei uns kannst du die richtigen Messer finden:</div>
+                                <div id="item-text-short-board" class="hide">Finde heraus, was <br>hinter unserer Marke steckt:</div>
+                                <div id="item-text-short-ice" class="hide">Gönn' dir einen <br>Drink auf's Haus:</div>
+                                <div id="item-text-short-unknown" class="hide">Lüfte als Erster die Geheimnisse von Kiveda:</div>
+                                <div id="item-text-short-tomato" class="hide">Bist du reif genug? <br>Finde es als Erster heraus:</div>
+                                <div id="item-text-short-bread" class="hide">Es wird heiß, <br>sei als Erster dabei:</div>
+                                <div id="item-text-short-bus" class="hide">Steig ein und <br>sei als Erster dabei:</div>
+                                <div id="item-text-short-note" class="hide">Willst du wissen, <br>wie lange wir brauchen?</div>
+                                <div id="item-text-short-noodles" class="hide">Wir haben Spaß <br>beim Kochen - du auch?</div>
+                                <div id="item-text-short-pepper" class="hide">Melde dich an, für eine königliche Würzmischung:</div>
+                            </div>
+                            <div class="signup-form">
+                                <!-- Begin MailChimp Signup Form -->
+                                <div id="mc_embed_signup">
+                                    <form action="http://kiveda.us6.list-manage.com/subscribe/post?u=11830415cf743bb2e88e23ad5&amp;id=aa30354304" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
+                                        <input type="email" value="" name="EMAIL" class="email signup" id="mce-EMAIL" tabindex="1" placeholder="E-Mail Adresse" required />
+                                        <a name="subscribe" id="mc-embedded-subscribe" class="button signup" tabindex="2">
+                                            <span class="button-text">ANMELDEN</span><span class="arrow signup"></span>
+                                        </a>
+                                        <input type="submit" name="submit" id="mc_submit_button" class="hide"/>
+                                    </form>
+                                </div>
+                                <!--End mc_embed_signup-->
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+
+            </div>
+            <div class="footer">
+                <div class="footer-element-big">
+                    Kiveda Holding GmbH<br>
+                    Geschäftsführer: Julian Strosek, Sebastian Sielmann<br>
+                    Adresse: Immanuelkirchstr. 14a |10405 Berlin<br>
+					<a href="jobs/index.html">jobs<a>
+                </div>
+                <div class="footer-element-small">
+                    Kontakt: info@kiveda.de<br>
+                    Sitz der Gesellschaft:<br>
+                    Lachnerstraße 32 | 80639 München<br>
+                </div>
+                <div class="footer-element-small">
+                    Amtsgericht München,<br>
+                    HRB-Nr. 200207<br>
+                    St. Nr. 143/177/80932<br>
+                </div>
+                <div class="footer-element-small last">
+                    <div class="logo-mail-chimp"></div>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+	</body>
+</html>
