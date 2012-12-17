@@ -106,4 +106,13 @@ hr {
 .logo-mail-chimp {
     width: 106px; height: 51px;
     background: url(../_img/mailchimp.png) no-repeat; background-size: 100%;
+	float:left;
+}
+
+.google-plus{
+	float:right;
+	margin-top:8px; 
+}
+.gplus-image {
+	width:34px;height:34px;padding:1px;
 }
