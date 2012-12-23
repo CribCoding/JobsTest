@@ -25,6 +25,41 @@ hr {
     border-bottom: 1px solid rgba(255, 255, 255, 0.3);
 }
 
+/*********************************************************
+/*  GLOBALS
+*/
+
+.main-container {
+    width: 1000px; margin: 0px auto;
+    text-align: left;
+}
+
+.top-container {
+    width: 100%;
+    -webkit-box-shadow: 1px 0px 10px rgba(50, 50, 50, 0.75);
+    -Moz-box-shadow: 1px 0px 10px rgba (50, 50, 50, 0.75);
+    -ms-box-shadow:     1px 0px 10px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 0px 10px rgba(50, 50, 50, 0.75);
+}
+
+/*********************************************************
+/*  HEADERS
+*/
+
+.header {
+    height: 70px; 
+	padding-bottom: 10px;
+    border-bottom: 1px solid #c20f20;
+}
+
+.header-logo {
+    margin: 25px 0px 0px 65px;
+}
+
+.header-text {
+    margin: 38px 65px 0px 0px;;
+    font-size: 18px; font-weight: 400; color: #2a2b2b;
+}
 
 
 /*********************************************************
@@ -72,7 +107,7 @@ hr {
 */
 
 .footer {
-    margin: 25px 20px; width: 100%; padding-bottom:30px;
+    margin-top: 25px; width: 100%; padding-bottom:30px;
 }
 
 .footer-element-big {
@@ -86,7 +121,6 @@ hr {
     font-size: 11px; color: #b2b2b2;
     border-right: 1px solid #e3e3e3;
 }
-
 
 .footer-element-small.last {
     margin-left: 10px;

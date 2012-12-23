@@ -1,37 +1,3 @@
-/*********************************************************
-/*  GLOBALS
-*/
-
-.main-container {
-    width: 1000px; margin: 0px auto;
-    text-align: left;
-}
-
-.top-container {
-    width: 100%;
-    -webkit-box-shadow: 1px 0px 10px rgba(50, 50, 50, 0.75);
-    -moz-box-shadow:    1px 0px 10px rgba(50, 50, 50, 0.75);
-    -ms-box-shadow:     1px 0px 10px rgba(50, 50, 50, 0.75);
-    box-shadow:         1px 0px 10px rgba(50, 50, 50, 0.75);
-}
-
-/*********************************************************
-/*  HEADERS
-*/
-
-.header {
-    height: 70px; padding-bottom: 10px;
-    border-bottom: 1px solid #c20f20;
-}
-
-.header-logo {
-    margin: 25px 0px 0px 65px;
-}
-
-.header-text {
-    margin: 38px 65px 0px 0px;;
-    font-size: 18px; font-weight: 400; color: #2a2b2b;
-}
 
 
 /*********************************************************
@@ -154,26 +120,65 @@
     border: 2px solid #CCCCCC; border-radius: 4px; margin-right: 10px;
 }
 
-.button.signup {
-    font-weight: 400; font-size: 18px; color: #FFFFFF;
-    padding: 7px 55px 8px 40px; width: 190px;
-    border: 1px solid #436f00; border-radius: 4px;
-    background-image: linear-gradient(top, rgb(141,203,6) 18%, rgb(114,156,22) 59%);
-    background-image: -o-linear-gradient(top, rgb(141,203,6) 18%, rgb(114,156,22) 59%);
-    background-image: -moz-linear-gradient(top, rgb(141,203,6) 18%, rgb(114,156,22) 59%);
-    background-image: -webkit-linear-gradient(top, rgb(141,203,6) 18%, rgb(114,156,22) 59%);
-    background-image: -ms-linear-gradient(top, rgb(141,203,6) 18%, rgb(114,156,22) 59%);
-    cursor: pointer;
-    /* For Internet Explorer 5.5 - 7 */
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccccc, endColorstr=#ffffff);
-    /* For Internet Explorer 8 */
-    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccccc, endColorstr=#ffffff)";
-    background-color: #8ccb06;
+
+
+.button {
+   cursor: pointer;
+   border: 1px solid #114d1f;
+   width: 190px;
+   padding: 7px 55px 8px 40px;
+   background: #729c16;
+   background: -webkit-gradient(linear, left top, left bottom, from(#8dcb06), to(#729c16));
+   background: -webkit-linear-gradient(top, #8dcb06, #729c16);
+   background: -moz-linear-gradient(top, #8dcb06, #729c16);
+   background: -ms-linear-gradient(top, #8dcb06, #729c16);
+   background: -o-linear-gradient(top, #8dcb06, #729c16);
+   background-image: -ms-linear-gradient(top, #8dcb06 0%, #729c16 100%);
+   -webkit-border-radius: 3px;
+   -moz-border-radius: 3px;
+   border-radius: 3px;
+   -webkit-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   -moz-box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   box-shadow: rgba(255,255,255,0.4) 0 1px 0, inset rgba(255,255,255,0.4) 0 1px 0;
+   text-shadow: #1c6915 0 -1px 3px;
+   font-weight: 400;
+   font-size: 18px;
+   color: #ffffff;
+   text-decoration: none;
+   
+   /* For Internet Explorer 5.5 - 7 */
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccccc, endColorstr=#ffffff);
+   /* For Internet Explorer 8 */
+   -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#cccccc, endColorstr=#ffffff)";
+   background-color: #8ccb06;
+   }
+   
+.button:hover,.button:focus {
+   background: #7fad13;
+   background: -webkit-gradient(linear, left top, left bottom, from(#9ee004), to(#7fad13));
+   background: -webkit-linear-gradient(top, #9ee004, #7fad13);
+   background: -moz-linear-gradient(top, #9ee004, #7fad13);
+   background: -ms-linear-gradient(top, #9ee004, #7fad13);
+   background: -o-linear-gradient(top, #9ee004, #7fad13);
+   background-image: -ms-linear-gradient(top, #9ee004 0%, #7fad13 100%);
+   color: #fff;
+   }
+.button:active {
+   text-shadow: #1e4158 0 1px 0;
+   background: #7fad13;
+   background: -webkit-gradient(linear, left top, left bottom, from(#70b80b), to(#7fad13));
+   background: -webkit-linear-gradient(top, #70b80b, #7fad13);
+   background: -moz-linear-gradient(top, #70b80b, #7fad13);
+   background: -ms-linear-gradient(top, #70b80b, #7fad13);
+   background: -o-linear-gradient(top, #70b80b, #7fad13);
+   background-image: -ms-linear-gradient(top, #70b80b 0%, #7fad13 100%);
+   color: #fff;
+   box-shadow: inset 0px 2px 3px rgba(0, 0, 0, 0.32), 0px 1px 0px rgba(255, 255, 255, 0.4);
+   text-decoration: none;
 }
 
-.button-text {
-	text-shadow:#005826 0px -1px 3px
-}
+
+
 
 .arrow.signup {
     position: absolute;

@@ -55,12 +55,7 @@ a:hover {
 .container:after {
     clear: both;
 }
-.row-fluid,
-.row,
-.row-golden,
-.row-golden-fluid {
-    zoom: 1;
-}
+
 .row-fluid:before,
 .row-fluid:after,
 .row:before,
@@ -71,7 +66,6 @@ a:hover {
 .row-golden-fluid:after {
     content: "";
     display: table;
-    zoom: 1;
 }
 .row-fluid:after,
 .row:after,
@@ -251,42 +245,7 @@ a:hover {
 .row > .offset12 {
     margin-left: 1045px;
 }
-.span1 {
-    width: 60px;
-}
-.span2 {
-    width: 145px;
-}
-.span3 {
-    width: 230px;
-}
-.span4 {
-    width: 315px;
-}
-.span5 {
-    width: 400px;
-}
-.span6 {
-    width: 485px;
-}
-.span7 {
-    width: 570px;
-}
-.span8 {
-    width: 655px;
-}
-.span9 {
-    width: 740px;
-}
-.span10 {
-    width: 825px;
-}
-.span11 {
-    width: 910px;
-}
-.span12 {
-    width: 995px;
-}
+
 p {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 13px;
