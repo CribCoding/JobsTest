@@ -31,62 +31,28 @@
 }
 
 .image_text {
-	margin-top:450px;
-	margin-left:200px;
+	margin-top:100px;
+	margin-left:350px;
 	text-shadow:1px 5px 10px rgb(50,50,50);
 	-moz-text-shadow:1px 5px 10px rgb(50,50,50);
 	-ms-text-shadow:1px 5px 10px rgb(50,50,50);
 	-webkit-text-shadow:1px 5px 10px rgb(50,50,50);
-    font-size:80px;
-	line-height:80px;
-	width:50%;
+    font-size:50px;
+	line-height:75px;
+	width:60%;
 	color:white;
 	text-rendering: optimizelegibility;
+	text-align:right;
 }
+.A,.B,.C{
+	background:rgba(0,0,0,0.75);
+	margin-bottom:200px;
+	padding:0px 20px;
+}
+
 
 /*********************************************************
-/*  spans
-*/
-
-.span1 {
-    width: 60px;
-}
-.span2 {
-    width: 145px;
-}
-.span3 {
-    width: 230px;
-}
-.span4 {
-    width: 315px;
-}
-.span5 {
-    width: 400px;
-}
-.span6 {
-    width: 485px;
-}
-.span7 {
-    width: 570px;
-}
-.span8 {
-    width: 655px;
-}
-.span9 {
-    width: 740px;
-}
-.span10 {
-    width: 825px;
-}
-.span11 {
-    width: 910px;
-}
-.span12 {
-    width: 995px;
-}
-
-/*********************************************************
-/*  BOX
+/*  BOXES
 */
 
 .box {
@@ -101,6 +67,33 @@
 	width:1000px;
     padding-left: 30px;
     padding-top: 40px;
+}
+
+.department-box {
+    -moz-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    -o-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.2);
+	width:45%;	
+	padding: 10px;
+    margin:20px;
+	height:auto;
+}
+
+.department-box:hover{
+    -moz-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+    -o-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+    box-shadow: 0px 2px 3px rgba(0, 0, 0, 0.4);
+}
+
+h1
+{
+    font-weight: bold;
+    text-rendering: optimizelegibility;
+    font-size: 26px;
+	line-height:35px;
+	margin-top:-0px;
 }
 
 /*********************************************************
@@ -174,13 +167,7 @@
 /*  old jobs css
 */
 
-h1
-{
-    font-weight: bold;
-    text-rendering: optimizelegibility;
-    font-size: 28px;
-	margin-top:-20px;
-}
+
 
 
 
@@ -216,6 +203,47 @@ table tr th.headerSortDown .sort-direction {
     background: url("//a0.muscache.com/airbnb/static/jobs/new/sort_up-3a8cc5198982116d347b2b1c2448498c.gif") no-repeat center right;
     filter: alpha(opacity=100);
     opacity: 1;
+}
+
+/*********************************************************
+/*  spans
+*/
+
+.span1 {
+    width: 60px;
+}
+.span2 {
+    width: 145px;
+}
+.span3 {
+    width: 230px;
+}
+.span4 {
+    width: 315px;
+}
+.span5 {
+    width: 400px;
+}
+.span6 {
+    width: 485px;
+}
+.span7 {
+    width: 570px;
+}
+.span8 {
+    width: 655px;
+}
+.span9 {
+    width: 740px;
+}
+.span10 {
+    width: 825px;
+}
+.span11 {
+    width: 910px;
+}
+.span12 {
+    width: 995px;
 }
 
 
