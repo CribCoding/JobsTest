@@ -1,0 +1,152 @@
+/*********************************************************
+/*  GENERAL
+*/
+
+html, body {
+    margin:0; padding:0; width:100%; height:100%;
+}
+body {
+    position: relative; min-width:1000px; text-align: center;
+    font-size: 14px; color: #2a2b2b; font-family:"Open Sans", Arial, sans serif;
+}
+
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+hr {
+    margin: 14px 0px;
+    border: 0;
+    height: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/*********************************************************
+/*  GLOBALS
+*/
+
+.main-container {
+    width: 1000px; margin: 0px auto;
+    text-align: left;
+}
+
+.top-container {
+    width: 100%;
+    -webkit-box-shadow: 1px 0px 10px rgba(50, 50, 50, 0.75);
+    -Moz-box-shadow: 1px 0px 10px rgba (50, 50, 50, 0.75);
+    -ms-box-shadow:     1px 0px 10px rgba(50, 50, 50, 0.75);
+    box-shadow:         1px 0px 10px rgba(50, 50, 50, 0.75);
+}
+
+/*********************************************************
+/*  HEADERS
+*/
+
+.header {
+    height: 70px; 
+	padding-bottom: 10px;
+    border-bottom: 1px solid #c20f20;
+}
+
+.header-logo {
+    margin: 25px 0px 0px 65px;
+}
+
+.header-text {
+    margin: 38px 65px 0px 0px;;
+    font-size: 18px; font-weight: 400; color: #2a2b2b;
+}
+
+
+/*********************************************************
+/*  POSITIONS
+*/
+
+.float-left  {
+    float: left;
+}
+
+.float-right {
+    float: right;
+}
+
+.hide {
+    display: none;
+    -webkit-transition: all 0.50s ease-in-out;
+    -moz-transition: all 0.50s ease-in-out;
+    -ms-transition: all 0.50s ease-in-out;
+    transition: all 0.50s ease-in-out;
+}
+
+.show {
+    display: block;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+/* IE6/7 support */
+.clearfix {
+    *zoom: 1;
+}
+
+
+/*********************************************************
+/*  FOOTER
+*/
+
+.footer {
+    margin-top: 25px; width: 100%; padding-bottom:30px;
+}
+
+.footer-element-big {
+    float: left; width: 31%; padding: 0px 20px;
+    font-size: 11px; color: #b2b2b2;
+    border-right: 1px solid #e3e3e3;
+}
+
+.footer-element-small {
+    float: left; width: 22%; padding: 0px 15px;
+    font-size: 11px; color: #b2b2b2;
+    border-right: 1px solid #e3e3e3;
+}
+
+.footer-element-small.last {
+    margin-left: 10px;
+    border: 0px;
+}
+
+
+/*********************************************************
+/*  LOGOS
+*/
+
+.logo-main {
+    width: 115px; height: 31px;
+    background: url(../../_img/logo.jpg) no-repeat; background-size: 100%;
+}
+
+.logo-mail-chimp {
+    width: 106px; height: 51px;
+    background: url(../../_img/mailchimp.png) no-repeat; background-size: 100%;
+	float:left;
+}
+
+.google-plus{
+	float:right;
+	margin-top:8px; 
+}
+.gplus-image {
+	width:34px;height:34px;padding:1px;
+}
