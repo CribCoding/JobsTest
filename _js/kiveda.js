@@ -140,7 +140,7 @@ var home_page  = {
         var diff = $(document).height() - $(window).height();
         if (diff > 150){
             var pos = $(".footer").offset().top - $(window).height() - 20;
-            $("body").scrollTo(pos, 500);
+            $("body").scrollTo(Math.max(pos, 0), 500);
         }
     },
 

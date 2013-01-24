@@ -243,3 +243,18 @@
     background: url(../_img/jobs-arrow.png) no-repeat; background-size: 100%;
 }
 
+h1{
+	font-size:16px;
+	font-weight:300;
+	padding:0px 20px;
+	color:#b2b2b2
+}
+
+.footer-text{
+	font-weight:300;
+	font-size:12px;
+	padding: 0px 20px;
+	text-align:justify;
+	color:#b2b2b2
+}
+
